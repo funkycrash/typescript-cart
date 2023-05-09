@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+
+    <section class="section">
+        <div class="container mt-5">
+            <h1 class="title">Product Catalog</h1>
+            <div class="columns is-multiline">
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="title">Product 1</p>
+                            <p class="subtitle">Description of product 1</p>
+                            <p class="subtitle">$10.00</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="button is-primary is-fullwidth">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="title">Product 2</p>
+                            <p class="subtitle">Description of product 2</p>
+                            <p class="subtitle">$20.00</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="button is-primary is-fullwidth">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="title">Product 3</p>
+                            <p class="subtitle">Description of product 3</p>
+                            <p class="subtitle">$20.00</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="button is-primary is-fullwidth">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Cart</h1>
+            <table class="table is-fullwidth">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    <tr>
+                        <td>Product 1</td>
+                        <td>$10.00</td>
+                        <td>2</td>
+                        <td>$20.00</td>
+                        <td><button class="button is-danger">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>$15.00</td>
+                        <td>1</td>
+                        <td>$15.00</td>
+                        <td><button class="button is-danger">Remove</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Total: $35.00</td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <button class="button is-primary">Place Order</button>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
