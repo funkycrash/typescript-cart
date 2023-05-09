@@ -3,7 +3,7 @@ Self assignment to practice TypeScript
 
 
 ## Assignment
-I wanted to practice my typeScript skills as well as yourmy ability to design and implement a web application from scratch. So I imagined the following assignment.
+I wanted to practice my typeScript skills as well as my ability to design and implement a web application from scratch. So I imagined the following assignment.
 
 **Project: Online Shopping Cart**
 
